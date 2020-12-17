@@ -54,14 +54,25 @@ Fetching the data manually passing the page number as parameter
 perl image_gallery_search -method=get_images -page=n
 ```
 
-## Other flags
+## Flags and methods
+
+Flags:
 
 -search_param : Parameter to search
 
 -page : The numbe of page to fetch (use it with get_image method)
 
+-id_image : ID of image to fetch details (use it with image_details method)
+
+Methods:
+
+-get_images : List images
+
+-images_details: Get more details of a given image 
+
 -auth : Request new token
 
+-search: Execute a search based on -search_param parameter.
 
 **On average, it takes ~20 sec to update the local cache.**
 
@@ -71,4 +82,4 @@ perl image_gallery_search -method=get_images -page=n
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License -
