@@ -9,7 +9,7 @@ Image Gallery Search script allows you to search stored images based on attribut
   - [General use-case](#General-use-case)
   - [How to run](#How-to-run)
   - [Methods and Flags](#Flags-and-methods)
-* [Benchmarking](#Benchmarking)
+* [Performance](#Benchmarking)
 * [Author](#Author)
 * [License](#License)
 
@@ -73,6 +73,8 @@ Methods:
 -auth : Request new token
 
 -search: Execute a search based on -search_param parameter.
+
+## Performance
 
 **On average, it takes ~20 sec to update the local cache.**
 
