@@ -68,7 +68,7 @@ Methods:
 
 -get_images : List images
 
--images_details: Get more details of a given image 
+-image_details: Get more details of a given image 
 
 -auth : Request new token
 
