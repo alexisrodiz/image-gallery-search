@@ -9,7 +9,7 @@ Image Gallery Search script allows you to search stored images based on attribut
   - [General use-case](#General-use-case)
   - [How to run](#How-to-run)
   - [Methods and Flags](#Flags-and-methods)
-* [Performance](#Benchmarking)
+* [Performance](#Performance)
 * [Author](#Author)
 * [License](#License)
 
